@@ -1,6 +1,6 @@
 .login {
   height: 100vh;
-  background-color: forestgreen;
+  background-color: rgba(236, 23, 23, 0.57);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,21 +13,102 @@
 }
 
 .login .card {
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background-color: white;
+  border-radius: 10px;
+  min-height: 600px;
+  overflow: hidden;
 }
 
 .login .card .left {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(204, 225, 234, 0.231)), to(rgba(209, 26, 26, 0.302))), url(../chang-duong-Sj0iMtq_Z4w-unsplash.jpg) center;
+  background: linear-gradient(rgba(204, 225, 234, 0.231), rgba(209, 26, 26, 0.302)), url(../chang-duong-Sj0iMtq_Z4w-unsplash.jpg) center;
+  background-size: cover;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  color: black;
+}
+
+.login .card .left h1 {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.login .card .left span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ccff01;
+}
+
+.login .card .left button {
+  width: 50%;
+  padding: 10px;
+  border: 10px;
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .login .card .right {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login .card .right h1 {
+  color: black;
+}
+
+.login .card .right form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.login .card .right form input {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 20px 10px;
+}
+
+.login .card .right form button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background-color: rgba(237, 20, 20, 0.476);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
 /*# sourceMappingURL=login.css.map */
