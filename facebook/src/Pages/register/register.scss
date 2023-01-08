@@ -7,6 +7,7 @@
     .card{
         width: 50%;
         display: flex;
+        flex-direction: row-reverse;
         background-color: white;
         border-radius: 10px;
         min-height: 600px;
@@ -15,7 +16,7 @@
     
         .left{
             flex: 1; 
-            background:linear-gradient(rgba(204, 225, 234, 0.231),rgba(209, 26, 26, 0.302)),url(../chang-duong-Sj0iMtq_Z4w-unsplash.jpg) center;
+            background:linear-gradient(rgba(204, 225, 234, 0.664),rgba(209, 26, 26, 0.302)),url(./hannah-busing-Zyx1bK9mqmA-unsplash.jpg) center;
             background-size:cover ;
             padding: 50px;
             display: flex;
@@ -23,12 +24,14 @@
             gap: 30px;
             color:black;
             
-            // img {}  
+              
             h1{
                 font-size: 50px;
                 line-height: 50px;
             }
-            p{} 
+            p{
+                font-weight: bolder;
+            } 
             span{font-size: 14px;
             font-weight: bold;
             color: rgb(204, 255, 1);
@@ -40,7 +43,7 @@
                 background-color: yellow;
                 color: red;
                 font-weight: bold;
-                cursor: pointer;
+                
             }
 
         }
@@ -71,10 +74,10 @@
                     background-color:rgba(237, 20, 20, 0.476);
                     color:white;
                     font-weight: bold;
-                    cursor: pointer;
+                   
 
                 }
             }
         }
-    }
-}
+  }
+ }
