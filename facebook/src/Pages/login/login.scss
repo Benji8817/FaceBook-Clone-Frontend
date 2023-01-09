@@ -28,13 +28,19 @@
                 font-size: 50px;
                 line-height: 50px;
             }
-            p{} 
-            span{font-size: 14px;
+            p{
+                padding: 30px;
+                font-size:small;
+                font-weight: bold;
+                
+            } 
+            span{font-size: 10px;
             font-weight: bold;
+            font-size: small;
             color: rgb(204, 255, 1);
         }
             button{
-                width: 50%;
+                width: 30%;
                 padding: 10px;
                 border: 10px;
                 background-color: yellow;
@@ -61,7 +67,7 @@
                 gap: 30px;
                 input{
                     border: none;
-                    border-bottom: 1px solid lightgray;
+                    border-bottom: 3px solid black;
                     padding: 20px 10px;
                 }
                 button{
