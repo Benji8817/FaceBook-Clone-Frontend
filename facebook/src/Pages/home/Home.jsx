@@ -18,6 +18,7 @@ const Home= ()=>{
 
          <div className='Middle'>
              <h1 className="news">News Feed</h1>
+             <p> hey this is a test</p>
              </div>
              
              
