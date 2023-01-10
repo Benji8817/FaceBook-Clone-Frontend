@@ -5,11 +5,22 @@ import {
 } from "react-router-dom";
 import Register from "./Pages/register/Register";
 import Home from "./Pages/home/Home.jsx"
+import Topbar from "./components/topbar//Topbar.jsx";
 
 function App(){
+
+
+
+
   const router = createBrowserRouter([
     {
-      path: "/Home",
+      path: "/Topbar",
+      element:<Topbar/>
+    },
+    
+
+    {
+      path: "/home",
       element:<Home/>
     },
     
